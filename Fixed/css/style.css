@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.arrowUp, .arrowDown, .facebook, .instagram {
+	font-size: 300%;
+}
+
+.arrowUp a, .arrowDown a, .facebook a, .instagram a {
+	text-decoration: none;
+	transition: .6s;
+}
+
+.arrowUp a, .arrowDown a {
+	color: red;
+}
+
+.facebook a {
+	color: #3B5998;
+}
+
+.instagram a {
+	color: #fb3958;
+}
+
+.arrowUp a:hover, .arrowDown a:hover, .facebook a:hover, .instagram a:hover{
+	color: blue;
+}

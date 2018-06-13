@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+}
+
+.hero {
+	height: 500px;
+	width: 800px;
+	margin: 0 auto;
+	background-image: url('https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero * {
+	color: white;
+}
+
+.hero .goat {
+	font-size: 150%;
+	background-color: green;
+}

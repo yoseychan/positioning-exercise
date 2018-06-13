@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+}
+
+div.container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+div.outer {
+	width: 200px;
+	height: 200px;
+	border: 10px dotted red;
+	display: inline-block;
+	margin: 10px;
+}
+
+div.inner {
+	width: 200px;
+	height: 200px;
+	background-image: url('https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+}
