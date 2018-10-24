@@ -18,7 +18,23 @@ div.outer {
 div.inner {
 	width: 200px;
 	height: 200px;
-	background-image: url('https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpg');
+	background-image: url('https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/iStock-177369626_1.jpg?itok=DyZrFgNX&resize=1100x1100');
 	background-size: cover;
 	background-position: center;
+}
+
+.one {
+	position: relative;
+	left: -10px;
+}
+
+.two {
+	position: relative;
+	top: -10px;
+}
+
+.three {
+	position: relative;
+	top: 10px;
+	left: 10px;
 }
