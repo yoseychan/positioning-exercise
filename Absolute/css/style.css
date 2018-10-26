@@ -9,13 +9,43 @@ body {
 	background-image: url('https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/iStock-177369626_1.jpg?itok=DyZrFgNX&resize=1100x1100');
 	background-size: cover;
 	background-position: center;
+	position: relative;
+
 }
 
 .hero * {
 	color: white;
+	
 }
 
 .hero .goat {
 	font-size: 150%;
 	background-color: green;
+	position: absolute;
+	top: 300px;
+	left: 500px;
+}
+
+.topLeft {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.topRight {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.bottomRight {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.bottomLeft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }

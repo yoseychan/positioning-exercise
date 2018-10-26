@@ -3,10 +3,15 @@
 	color: white;
 	padding: 10px;
 	border-radius: 20px;
+	position: sticky;
+	top: 0;
 }
 
 .social {
 	padding: 5px;
 	background-color: blue;
 	color: white;
+	position: sticky;
+	top: 45px;
+	left: 25px;
 }

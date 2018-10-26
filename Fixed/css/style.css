@@ -16,16 +16,31 @@ body {
 	transition: .6s;
 }
 
-.arrowUp a, .arrowDown a {
+.arrowUp a {
 	color: red;
+	position: fixed;
+	bottom: 450px;
+	right: 30px;
+}
+.arrowDown a {
+	color: red;
+	position: fixed;
+	top: 450px;
+	right: 30px;
 }
 
 .facebook a {
 	color: #3B5998;
+	position: fixed;
+	bottom: 450px;
+	left: 30px;
 }
 
 .instagram a {
 	color: #fb3958;
+	position: fixed;
+	top: 450px;
+	left: 30px;
 }
 
 .arrowUp a:hover, .arrowDown a:hover, .facebook a:hover, .instagram a:hover{
